@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zar Oyunu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .container {
+            text-align: center;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+        .result {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Zar Oyunu</h1>
+        <button onclick="rollDice()">Zar At</button>
+        <div class="result" id="result"></div>
+    </div>
+
+    <script>
+        const tasks = ["Dans et", "Şarkı söyle", "Komik bir hikaye anlat", "Birini güldür", "İlginç bir bilgi paylaş", "Küçük bir oyun oyna"];
+        const places = ["Oturma odası", "Mutfak", "Bahçe", "Balkon", "Yatak odası", "Banyo"];
+
+        function rollDice() {
+            const task = tasks[Math.floor(Math.random() * tasks.length)];
+            const place = places[Math.floor(Math.random() * places.length)];
+            document.getElementById('result').innerText = `${task} - ${place}`;
+        }
+    </script>
+</body>
+</html>
