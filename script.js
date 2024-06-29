@@ -1,0 +1,1 @@
+const tasks = ["Dans et", "Şarkı söyle", "Komik bir hikaye anlat", "Birini güldür", "İlginç bir bilgi paylaş", "Küçük bir oyun oyna", "Masaj yap", "Cinsel bir fantezi anlat", "Yarı çıplak bir dans yap", "Partnerine erotizm hikayesi anlat"];
