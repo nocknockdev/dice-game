@@ -1,4 +1,4 @@
-const tasks = ["Dans et", "Şarkı söyle", "Komik bir hikaye anlat", "Birini güldür", "İlginç bir bilgi paylaş", "Küçük bir oyun oyna"];
+const tasks = ["Doggy", "Missionary", "Cowgirl", "Reverse-Cowgirl", "69", "Scissoring", "Spooning","Oral","Prone boning","Mutual maz",];
 const places = ["Oturma odası", "Mutfak", "Bahçe", "Balkon", "Yatak odası", "Banyo"];
 
 document.getElementById('rollButton').addEventListener('click', rollDice);
